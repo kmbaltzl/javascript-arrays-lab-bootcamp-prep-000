@@ -11,10 +11,11 @@ function destructivelyPrependKitten(name) {
   }
   
   function destructivelyRemoveLastKitten(name) {
-  kittens.pop()
-  return kittens
+   kittens.pop()
+   return kittens
   }
   
   function destructivelyRemoveFirstKitten(name) {
-    
+    kittens = kittens.slice(1)
+    return kittens
   }
