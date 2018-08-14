@@ -29,3 +29,7 @@ function destructivelyPrependKitten(name) {
     var kitten = [name,...kittens]
     return kitten
   }
+  
+  function removesLastKitten(name) {
+    
+  }
