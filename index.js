@@ -21,16 +21,16 @@ function destructivelyPrependKitten(name) {
   }
   
   function appendKitten(name) {
-    kitten = [...kittens, name]
+   var kitten = [...kittens, name]
     return kitten
   }
   
    function prependKitten(name) {
-    kitten = [name,...kittens]
+    var kitten = [name,...kittens]
     return kitten
   }
   
   function removesLastKitten(name) {
-    kitten = name.slice(0,name.length-1)
+    var kitten = name.slice(0,name.length-1)
     return kitten
   }
