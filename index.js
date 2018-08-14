@@ -31,6 +31,6 @@ function destructivelyPrependKitten(name) {
   }
   
   function removesLastKitten(name) {
-    var kitten = name.slice(0,name.length-1)
+    var kitten = name.slice(0,kittens.length-1)
     return kitten
   }
