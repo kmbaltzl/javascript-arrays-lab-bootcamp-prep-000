@@ -1,5 +1,1 @@
-// Add your functions and code here
-function destructivelyAppendKitten(name) {
-  name.shift()
-  return name
-}
+var kittens = ["Milo", "Otis", "Garfield"]
