@@ -14,3 +14,5 @@ function destructivelyPrependKitten(name) {
   kittens.pop()
   return kittens
   }
+  
+  function
