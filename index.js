@@ -31,11 +31,11 @@ function destructivelyPrependKitten(name) {
   }
   
   function removeLastKitten(name) {
-   var name = kittens.slice(0, kittens.length-1)
-   return name
+   var kitten = kittens.slice(0, kittens.length-1)
+   return kitten
   }
   
   function removeFirstKitten(name) {
-   var name = kittens.slice(1)
-   return name
+   var kitten = kittens.slice(1)
+   return kitten
   }
