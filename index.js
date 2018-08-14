@@ -15,4 +15,6 @@ function destructivelyPrependKitten(name) {
   return kittens
   }
   
-  function
+  function destructivelyRemoveFirstKitten(name) {
+    
+  }
