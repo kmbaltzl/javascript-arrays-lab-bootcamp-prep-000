@@ -31,6 +31,5 @@ function destructivelyPrependKitten(name) {
   }
   
   function removesLastKitten(name) {
-    name = name.slice(0,name.length-1)
-    return name
+    
   }
