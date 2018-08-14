@@ -35,4 +35,6 @@ function destructivelyPrependKitten(name) {
    return name
   }
   
-  function 
+  function removeFirstKitten(name) {
+    
+  }
